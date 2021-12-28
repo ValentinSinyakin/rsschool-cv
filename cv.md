@@ -39,5 +39,5 @@ I have a higher technical education and RS-rschool stage 0 courses.
 
 ## Languages
 
-- Russian
-- English
+- Russian.
+- English.
