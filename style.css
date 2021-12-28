@@ -1,0 +1,40 @@
+.avatar {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info-text {
+  display: flex;
+  margin-left: 20px;
+}
+
+.info-text h1 {
+  margin-left: 40px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: rgb(255, 232, 226);
+  color: #0f141e;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+}
+.bg-red {
+  background: #fac9c9;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.bg-blue {
+  background: #c9dee6;
+}
+
+.imggit {
+  width: 100px;
+}
