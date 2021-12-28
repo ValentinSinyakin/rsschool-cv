@@ -16,11 +16,11 @@ I have a higher technical education and RS-rschool stage 0 courses.
 
 ## Briefly About Myself
 
-- HTML5
-- CSS3
-- JavaScript Basics
-- Adobe Premiere Pro
-- AutoCAD
+- HTML5.
+- CSS3.
+- JavaScript Basics.
+- Adobe Premiere Pro.
+- AutoCAD.
 
 ## video work
 
