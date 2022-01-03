@@ -38,3 +38,15 @@ body {
 .imggit {
   width: 100px;
 }
+
+.footer {
+  background: #ace0f5;
+  border-radius: 20px;
+}
+.Code_example {
+  background: #8c9599;
+  border-radius: 20px;
+}
+h2 {
+  text-align: center;
+}
