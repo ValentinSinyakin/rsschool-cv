@@ -15,9 +15,18 @@
         class="avatar"
       />
       <h1>Valentin Sinyakin</h1>
+      <nav>
+        <ul>
+          <li><a href="#Contact">My Contact Info</a><li>
+          <li><a href="#Briefly">Briefly About Myself<a></li>
+          <li><a href="#video">video work</a></li>
+          <li><a href="#Code">Code example</a></li>
+          <li><a href="#Courses">Courses</a></li>
+        </ul>
+      </nav>
     </div>
     <div class="card bg-red">
-      <h2 class="info-text h1">My Contact Info</h2>
+      <h2 id="Contact" class="info-text h1">My Contact Info</h2>
       <ul>
         <li>
           <a
@@ -37,7 +46,7 @@
       </ul>
     </div>
     <div>
-      <h2 class="info-text h1">Briefly About Myself</h2>
+      <h2 id="Briefly" class="info-text h1">Briefly About Myself</h2>
       <p>
         Novice programmer and video director. My goal is to learn how to program
         and get pleasure from it. I have 4 years of experience in a managerial
@@ -57,7 +66,7 @@
       </ol>
     </div>
     <div>
-      <h2 class="info-text h1">video work</h2>
+      <h2 id="video" class="info-text h1">video work</h2>
       <a href="https://www.youtube.com/watch?v=K8g0VIXHL0M" target="_blank"
         >Новый пробный видос,где автор играет с судьбой и цветокрекцией
       </a>
@@ -73,17 +82,25 @@
         allowfullscreen
       ></iframe>
     </div>
-    <div>
-      <h2 class="info-text h1">Code example</h2>
+    <div class="Code_example">
+      <h2 id="Code" class="info-text h1">Code example</h2>
       <img
         src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
         alt="github"
         class="imggit"
       />
       <a href="https://github.com/ValentinSinyakin">My github.com</a>
+      <p><code>
+    function checkParent (src, dest) {<Br>
+     while (src != null) {<Br>
+       if (src.tagName == dest) return src<Br>
+        src = src.parentElement<Br>
+     }<Br>
+     return null<Br>
+    }</code></p>
     </div>
     <div>
-      <h2 class="info-text h1">Courses</h2>
+      <h2 id="Courses" class="info-text h1">Courses</h2>
       <ol>
         <li>RS-rschool stage 0</li>
         <li>ru.code-basics HTML5</li>
@@ -94,9 +111,24 @@
     <div>
       <h2 class="info-text h1">Languages</h2>
       <ol>
-        <li>Russian</li>
-        <li>English</li>
+        <li>Russian A1 </li>
+        <li>English A2</li>
       </ol>
+    </div>
+    <div class="footer">
+    <footer>
+      <p>2022</p>
+      <img
+        src="https://rs.school/images/rs_school_js.svg"
+        alt="rs_school"
+        class="imggit"
+        
+      />
+      <a href="https://rs.school/js-stage0/" target="_blank"
+        >«JavaScript/Front-end. Stage 0»
+      </a>
+
+    </footer>
     </div>
   </body>
 </html>
